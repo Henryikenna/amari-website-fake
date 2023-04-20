@@ -749,8 +749,8 @@ footer .footerUp .fuLeft section .fulLinks a {
   font-size: 13px;
   opacity: 0.95;
 }
-footer .footerUp .fuLeft section .fulLinks a:hover{
-  opacity: .6;
+footer .footerUp .fuLeft section .fulLinks a:hover {
+  opacity: 0.6;
 }
 footer .footerUp .fuRight {
   display: grid;
@@ -802,9 +802,45 @@ footer .footermiddleLine {
   border: none;
   border-top: 0.1px solid #fff;
 }
-@media (max-width:777px){
+@media (max-width: 777px) {
   footer .footerUp .fuRight {
     display: flex;
     margin-top: 25px;
   }
+}
+
+footer .footerDown .fdInner .fdiUpper {
+  display: block;
+  text-align: center;
+}
+footer .footerDown .fdInner .fdiDown p {
+  color: #fff;
+  opacity: 0.6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+footer .footerDown .fdInner .fdiUpper .fdiuFirst {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+footer .footerDown .fdInner .fdiUpper .fdiuSecond .fdiusLinks {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+footer .footerDown .fdInner .fdiUpper .fdiuSecond .fdiusLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#uckbt {
+  cursor: text;
 }
